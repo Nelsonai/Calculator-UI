@@ -13,10 +13,10 @@ header{
 
 main{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: repeat(4, 1fr);
 	width: 100%;
 	margin: auto;
-	grid-gap: 0;
+	/* grid-gap: 1%; */
 	box-shadow: #000 20px 20px 30px 20px;
 }
 
@@ -27,7 +27,7 @@ main > div{
 	padding: 1rem;
 	padding-right: 10px;
 	padding-left: 10px;
-	background-color: #000;
+	background-color: rgb(0, 0, 0);
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
